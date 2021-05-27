@@ -1,0 +1,30 @@
+:root {
+  --color-principal: #9ed9e3;
+  --color-secundari: #59a17e;
+  --color-terciari: #007bff;
+  --color-quaternari: #fff;
+}
+body {
+  background-color: var(--color-principal);
+}
+.formulari {
+  background-color: var(--color-secundari);
+  padding: 40px 30px;
+  border-radius: 10px;
+  color: var(--color-quaternari);
+}
+.formulari .boto {
+  background-color: var(--color-terciari);
+  border: none;
+  border-radius: 5px;
+  color: var(--color-quaternari);
+}
+.formulari input {
+  border-radius: 5px;
+}
+.formulari input[type="textarea"] {
+  min-height: 80px;
+}
+.formulari > * {
+  margin-bottom: 10px;
+}
